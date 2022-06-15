@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarea1-clase6-nc.css"/>
+    <title>Tarea Clase 6</title>
+</head>
+<body>
+
+<form id="formulario-integrantes">
+    <label for="cantidad-integrantes">Ingresa la cantidad de integrantes de tu familia</label>
+    <input type="number" name="cantidad-integrantes" id="cantidad-integrantes"/>
+    <button type="submit" id="siguiente-paso">Siguiente</button> 
+</form>   
+
+<form id="formulario-edades">
+    <div id="contenedor-edades"> </div>
+    
+
+    <button type="submit" id="calcular" class="oculto">Calcular Edades</button>
+</form>
+
+    <div id="analisis" class="oculto">
+        <p>La mayor edad ingresada es: <srtrong id="mayor-edad"></srtrong></p>
+        <p>La menor edad ingresada es: <srtrong id="menor-edad"></srtrong></p>
+        <p>El promedio de las edades es: <srtrong id="promedio-edad"></srtrong></p>
+    </div>
+
+    
+<button type="reset" id="resetear">Resetar</button>
+
+
+<script type="text/javascript" src="calculos-tarea1-cl6.js"></script>
+<script type="text/javascript" src="validaciones-tarea1-cl6.js"></script>
+<script type="text/javascript" src="pruebas-tarea1-cl6.js"></script>
+<script type="text/javascript" src="Tarea1-clase6-nc.js"></script>
+
+
+</body>
+</html>
